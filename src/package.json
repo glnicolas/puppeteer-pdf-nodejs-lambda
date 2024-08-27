@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.637.0",
+    "@sparticuz/chromium": "^127.0.0",
+    "ejs": "^3.1.10",
+    "puppeteer-core": "^23.1.1",
+    "puppeteer-report": "^3.1.0"
+  },
+  "scripts": {
+    "postinstall": "npx puppeteer browsers install chrome"
+  }
+}
